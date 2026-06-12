@@ -65,8 +65,7 @@ function Memories() {
                             <video
                                 key={selectedYear}
                                 controls
-                                className="w-full max-w-[350px] md:max-w-[450px] rounded-2xl"
-                            >
+                                className="w-full max-w-[350px] md:max-w-[450px] rounded-2xl"                            >
                                 <source src={currentMemory.video} type="video/mp4" />
                             </video>
                         </div>
